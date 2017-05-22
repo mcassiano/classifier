@@ -9,7 +9,7 @@ import unicodedata
 
 
 def clean_str(message2):
-    message1 = unicodedata.normalize('NFKD', message2).encode('ASCII', 'ignore')
+    message1 = unicodedata.normalize('NFKD', message2).encode('ASCII', 'ignore').decode('ASCII')
     message1 = re.sub(r"\(.*\)", "", message1)
     message1 = re.sub("#\S+", "", message1)
     message1 = re.sub(
@@ -75,7 +75,7 @@ for post in posts:
         continue
     if '/ao-vivo/' in response.url:
         continue
-    print response.url
+    print(response.url)
     soup = BeautifulSoup(response.text, "lxml")
 
     title = soup.find(attrs={'name': 'title'})
@@ -100,21 +100,21 @@ for post in posts:
         if descriptors is None:
             description = u''
 
-        message %= clean_str(unicode(title)), clean_str(unicode(description))
+        message %= clean_str(title), clean_str(description)
 
         if len(message) < 70:
             continue
 
-        print "Writing message: %s." % message
+        print("Writing message: %s." % message)
         reactions = post['reactions']
         sortedKeys = sorted(reactions, key=reactions.get, reverse=True)
         predominantReaction = sortedKeys[0]
         if reactions[predominantReaction] > 0:
-            print "Reaction chosen: %s" % predominantReaction
+            print("Reaction chosen: %s" % predominantReaction)
             descriptors[predominantReaction].write(message + "\n")
             count += 1
 
-print '%d items processed' % count
+print('%d items processed' % count)
 
 loves.close()
 wows.close()
