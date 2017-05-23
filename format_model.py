@@ -66,12 +66,21 @@ for post in posts:
     if link is None:
         continue
 
+    print('requesting %s' % link)
     response = None
+    retries = 0
     while response is None:
         try:
+            if retries == 5:
+                break
+            retries += 1
             response = requests.get(link)
         except:
+            print('retrying request...')
             response = None
+
+    if response is None:
+        print('max retries reached, skipping...')
 
     if 'g1.globo.com' not in response.url:
         continue
