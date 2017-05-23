@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import json
 import re
-from time import sleep
 
 import requests
 from bs4 import BeautifulSoup
@@ -66,7 +65,14 @@ for post in posts:
     link = post['link']
     if link is None:
         continue
-    response = requests.get(link)
+
+    response = None
+    while response is None:
+        try:
+            response = requests.get(link)
+        except:
+            response = None
+
     if 'g1.globo.com' not in response.url:
         continue
     if 'globoesporte' in response.url:
