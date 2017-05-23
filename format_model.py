@@ -111,14 +111,14 @@ for post in posts:
         description = description.get('content')
 
     if title is not None or description is not None:
-        message = u'%s %s'
+        message = u''
 
         if title is None:
             title = u''
         if descriptors is None:
             description = u''
 
-        message %= clean_str(title), clean_str(description)
+        message = clean_str(title) + ' ' + clean_str(description)
 
         if len(message) < 70:
             continue
