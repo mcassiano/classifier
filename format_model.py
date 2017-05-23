@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import json
 import re
+from time import sleep
 
 import requests
 from bs4 import BeautifulSoup
@@ -77,6 +78,7 @@ for post in posts:
             response = requests.get(link)
         except:
             print('retrying request...')
+            sleep(2)
             response = None
 
     if response is None:
@@ -129,6 +131,8 @@ for post in posts:
             print("Reaction chosen: %s" % predominantReaction)
             descriptors[predominantReaction].write(message + "\n")
             count += 1
+
+        sleep(2)
 
 print('%d items processed' % count)
 
