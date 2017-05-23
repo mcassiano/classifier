@@ -81,6 +81,7 @@ for post in posts:
 
     if response is None:
         print('max retries reached, skipping...')
+        continue
 
     if 'g1.globo.com' not in response.url:
         continue
