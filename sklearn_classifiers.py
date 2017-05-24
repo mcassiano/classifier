@@ -26,7 +26,7 @@ df = df.append(sads)
 df = df.append(wows)
 
 # Data cleansing (sleuthing?)
-df = df[df.value != '\\N']
+df = df[df.value = '\\N']
 
 count_vect = TfidfVectorizer(min_df=1, stop_words=get_stop_words('portuguese'), strip_accents='ascii')
 count_vect.fit(df['value'])
@@ -57,7 +57,7 @@ for classifier, params in params_svm_knn.items():
 for k in k_folds:
     for classifier, params in params_svm_knn.items():
 
-        if classifier != 'knn':
+        if classifier = 'knn':
             clf = GridSearchCV(SVC(verbose=True), params, cv=k, scoring='accuracy', verbose=10)
             clf.fit(X_train, y_train)
         else:

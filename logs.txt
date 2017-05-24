@@ -22,7 +22,7 @@ Writing message: dono da jbs diz que pagou propina por investimentos de fundos d
 Reaction chosen: angry
 requesting https://glo.bo/2pZmrvi
 http://g1.globo.com/e-ou-nao-e/noticia/comandante-do-exercito-defende-intervencao-militar-apos-delacao-da-jbs-nao-e-verdade.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: comandante do exercito defende intervencao militar apos delacao da jbs \? nao e verdade ! mensagem que circula nas redes diz que general se posicionou publicamente a favor de mobilizacao ela e falsa.
+Writing message: comandante do exercito defende intervencao militar apos delacao da jbs  nao e verdade  mensagem que circula nas redes diz que general se posicionou publicamente a favor de mobilizacao ela e falsa.
 Reaction chosen: haha
 requesting https://glo.bo/2q6vF4E
 http://g1.globo.com/sp/sao-carlos-regiao/noticia/tucanos-viram-atracao-em-quintal-de-professor-de-tapiratiba-sp.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
@@ -112,7 +112,7 @@ Writing message: rich buckler cartunista de quarteto fantastico morre aos 68 ano
 Reaction chosen: sad
 requesting https://glo.bo/2pX6NQY
 http://g1.globo.com/ro/cacoal-e-zona-da-mata/noticia/jovem-saca-r-42-mil-de-fgts-e-perde-tudo-ao-cair-no-golpe-da-falsa-recompensa-em-ro.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=G1
-Writing message: jovem saca r 42 mil de fgts e perde tudo ao cair no golpe da falsa recompensa em ro caso aconteceu quando vitima saia de agencia bancaria de cacoal apos deixar embrulho dom dinheiro falso cair perto da vitima suspeito fez promessa de recompensa no valor de r 100.
+Writing message: jovem saca42 mil de fgts e perde tudo ao cair no golpe da falsa recompensa em ro caso aconteceu quando vitima saia de agencia bancaria de cacoal apos deixar embrulho dom dinheiro falso cair perto da vitima suspeito fez promessa de recompensa no valor de100.
 Reaction chosen: sad
 requesting https://glo.bo/2rEQGUi
 http://g1.globo.com/rio-de-janeiro/noticia/assalto-termina-em-tiroteio-em-botafogo-na-zona-sul-do-rio.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=G1
@@ -121,7 +121,7 @@ Reaction chosen: wow
 requesting http://glo.bo/2qJvBJb
 requesting https://glo.bo/2rpw1HJ
 http://g1.globo.com/loterias/noticia/mega-sena-concurso-1932-resultado.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=G1
-Writing message: mega sena concurso 1932 ninguem acerta e premio acumula em r 34 mi veja das dezenas sorteadas 10 16 21 29 44 55 quina teve 72 apostas ganhadoras cada um levou r 3837916.
+Writing message: mega sena concurso 1932 ninguem acerta e premio acumula em34 mi veja das dezenas sorteadas 10 16 21 29 44 55 quina teve 72 apostas ganhadoras cada um levou3837916.
 Reaction chosen: haha
 requesting http://glo.bo/2pXDfT9
 requesting http://glo.bo/2qJnCfp
@@ -274,11 +274,11 @@ Writing message: jovem estrabica atira em rival mas mata cliente por engano em b
 Reaction chosen: haha
 requesting https://glo.bo/2qznQXQ
 http://g1.globo.com/politica/operacao-lava-jato/noticia/joesley-diz-que-deu-r-30-milhoes-para-cunha-comprar-deputados-na-eleicao-da-camara.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: dono da jbs diz que deu r 30 milhoes para cunha comprar apoio de deputados na eleicao da camara joesley batista contou a pgr que dinheiro foi usado pelo deputado cassado na eleicao da camara de 2015 segundo empresario peemedebista saiu comprando deputados brasil a fora.
+Writing message: dono da jbs diz que deu30 milhoes para cunha comprar apoio de deputados na eleicao da camara joesley batista contou a pgr que dinheiro foi usado pelo deputado cassado na eleicao da camara de 2015 segundo empresario peemedebista saiu comprando deputados brasil a fora.
 Reaction chosen: haha
 requesting https://glo.bo/2q4c0RZ
 http://g1.globo.com/e-ou-nao-e/noticia/mulher-de-aecio-fez-video-xingando-povo-brasileiro-nao-e-verdade.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: mulher de aecio fez video xingando povo brasileiro \? nao e verdade ! mensagem tem sido bastante compartilhada no whatsapp e no facebook material foi gravado por jornalista apos a vitoria de dilma em 2014.
+Writing message: mulher de aecio fez video xingando povo brasileiro  nao e verdade  mensagem tem sido bastante compartilhada no whatsapp e no facebook material foi gravado por jornalista apos a vitoria de dilma em 2014.
 Reaction chosen: haha
 requesting https://glo.bo/2rzKsoX
 http://g1.globo.com/economia/negocios/noticia/cvm-abre-3-processos-em-uma-semana-para-investigar-jbs.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
@@ -355,11 +355,11 @@ Writing message: justica decreta prisao de homem que aparece em video do whatsap
 Reaction chosen: angry
 requesting https://glo.bo/2ruNxr2
 http://g1.globo.com/tecnologia/noticia/ciberataques-como-nao-virar-uma-vitima-siga-10-mandamentos.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: ciberataques como nao virar uma vitima \? siga 10 mandamentos atualizar software ter copias de arquivos e nao abrir anexos em vao confira estas e outras dicas para nao ser vitima de ataques como o virus wannacry que atingiu 300 mil computadores.
+Writing message: ciberataques como nao virar uma vitima  siga 10 mandamentos atualizar software ter copias de arquivos e nao abrir anexos em vao confira estas e outras dicas para nao ser vitima de ataques como o virus wannacry que atingiu 300 mil computadores.
 Reaction chosen: wow
 requesting https://glo.bo/2qvL9lg
 http://g1.globo.com/politica/noticia/apos-delacoes-da-jbs-fhc-defende-respeito-a-constituicao-e-sugere-ate-renuncia.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: apos delacoes da jbs fhc defende respeito a constituicao e sugere ate renuncia dono da jbs gravou presidente michel temer dando aval para compra do silencio de eduardo cunha e senador afastado aecio neves pedindo r 2 milhoes.
+Writing message: apos delacoes da jbs fhc defende respeito a constituicao e sugere ate renuncia dono da jbs gravou presidente michel temer dando aval para compra do silencio de eduardo cunha e senador afastado aecio neves pedindo2 milhoes.
 Reaction chosen: haha
 requesting https://glo.bo/2pZIqx9
 http://g1.globo.com/pop-arte/noticia/para-daphne-bozaski-a-bene-de-malhacao-novela-trata-bullying-e-saude-mental-sem-didatismo.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
@@ -387,7 +387,7 @@ Writing message: morte de chris cornell causa espanto e deixa fas do grunge aind
 Reaction chosen: sad
 requesting https://glo.bo/2rx02SO
 http://g1.globo.com/resumo-do-dia/noticia/quinta-feira-18-de-maio-de-2017.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: quinta feira 18 de maio de 2017 boa noite ! aqui estao as principais noticias para voce terminar o dia bem informado.
+Writing message: quinta feira 18 de maio de 2017 boa noite  aqui estao as principais noticias para voce terminar o dia bem informado.
 Reaction chosen: haha
 requesting https://www.facebook.com/g1/photos/a.286506901401402.89243.180562885329138/1635303406521738/?type=3
 requesting https://glo.bo/2rvjvU3
@@ -425,7 +425,7 @@ Writing message: andrea neves irma do senador aecio e transferida para penitenci
 Reaction chosen: haha
 requesting https://glo.bo/2qXbNVH
 http://g1.globo.com/economia/mercados/noticia/dolar-fecha-em-forte-alta-em-dia-de-nervosismo-pelo-cenario-politico-bc-interfere.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: dolar tem a maior alta em 18 anos em dia de nervosismo pelo cenario politico a moeda norte americana subiu 815 a r 3389 na venda este e o maior valor de fechamento desde dezembro de 2016.
+Writing message: dolar tem a maior alta em 18 anos em dia de nervosismo pelo cenario politico a moeda norte americana subiu 815 a3389 na venda este e o maior valor de fechamento desde dezembro de 2016.
 Reaction chosen: sad
 requesting https://www.facebook.com/g1/videos/1635235693195176/
 requesting https://glo.bo/2pYmfIi
@@ -439,7 +439,7 @@ Writing message: memes no celular e nas redes sociais a reacao da internet a del
 Reaction chosen: haha
 requesting https://glo.bo/2qw9AiF
 http://g1.globo.com/politica/operacao-lava-jato/noticia/conversa-revela-detalhes-do-acerto-de-r-2-mi-de-joesley-com-aecio.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: conversa revela detalhes do acerto de r 2 milhoes de joesley com aecio propina foi paga em 4 parcelas semanais segundo transcricao da gravacao de joesley com o senador com participacao direta da irma presa nesta quinta.
+Writing message: conversa revela detalhes do acerto de2 milhoes de joesley com aecio propina foi paga em 4 parcelas semanais segundo transcricao da gravacao de joesley com o senador com participacao direta da irma presa nesta quinta.
 Reaction chosen: angry
 requesting https://glo.bo/2qWDw90
 http://g1.globo.com/rio-de-janeiro/noticia/morre-no-rio-dono-do-biscoito-globo.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
@@ -474,11 +474,11 @@ retrying request...
 max retries reached, skipping...
 requesting https://glo.bo/2rvRLin
 http://g1.globo.com/politica/noticia/senado-informa-que-afastou-aecio-apos-ser-notificado-da-decisao-de-fachin.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: aecio neves e afastado do senado por ordem de fachin relator da lava jato no stf mandou afastar senador do psdb gravado pedindo r 2 milhoes ao dono da jbs parlamentar tucano afirma estar tranquilo quanto a correcao de todos os seus atos.
+Writing message: aecio neves e afastado do senado por ordem de fachin relator da lava jato no stf mandou afastar senador do psdb gravado pedindo2 milhoes ao dono da jbs parlamentar tucano afirma estar tranquilo quanto a correcao de todos os seus atos.
 Reaction chosen: loves
 requesting https://glo.bo/2riZMJZ
 http://g1.globo.com/economia/seu-dinheiro/noticia/sem-parametros-casas-de-cambio-vendem-dolar-turismo-por-ate-r-4.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: sem parametros casas de cambio vendem dolar turismo por ate r 4 algumas corretoras chegaram a interromper as vendas por causa da alta volatilidade no inicio do dia.
+Writing message: sem parametros casas de cambio vendem dolar turismo por ate4 algumas corretoras chegaram a interromper as vendas por causa da alta volatilidade no inicio do dia.
 Reaction chosen: wow
 requesting https://glo.bo/2rvwnJd
 http://g1.globo.com/mundo/noticia/carro-em-alta-velocidade-atinge-pedestres-na-times-square.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
@@ -486,7 +486,7 @@ Writing message: carro em alta velocidade atinge pedestres na times square e dei
 Reaction chosen: wow
 requesting https://glo.bo/2pPhkO2
 http://g1.globo.com/politica/operacao-lava-jato/noticia/fachin-homologa-delacao-de-donos-da-jbs.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: fachin homologa delacao de donos da jbs conteudo permanece sob sigilo joesley batista gravou temer dando aval para comprar silencio de cunha e aecio solicitando r 2 milhoes segundo o globo com homologacao delacao passa a ter validade juridica.
+Writing message: fachin homologa delacao de donos da jbs conteudo permanece sob sigilo joesley batista gravou temer dando aval para comprar silencio de cunha e aecio solicitando2 milhoes segundo o globo com homologacao delacao passa a ter validade juridica.
 Reaction chosen: loves
 requesting https://glo.bo/2qwjd15
 http://g1.globo.com/mundo/noticia/delatores-da-jbs-relataram-as-autoridades-que-receberam-ameacas-de-morte.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
@@ -506,7 +506,7 @@ Writing message: fachin negou pedido de prisao e nao levara caso de aecio ao ple
 Reaction chosen: angry
 requesting https://glo.bo/2rigj0N
 http://g1.globo.com/economia/mercados/noticia/cotacao-dolar-18-05-17.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: dolar dispara e chega a r 343 apos denuncias envolvendo temer bc interfere na vespera a moeda norte americana fechou em alta 123 cotada a r 31337 na venda.
+Writing message: dolar dispara e chega a343 apos denuncias envolvendo temer bc interfere na vespera a moeda norte americana fechou em alta 123 cotada a31337 na venda.
 Reaction chosen: sad
 requesting https://glo.bo/2qAgYYw
 http://g1.globo.com/espirito-santo/noticia/caso-araceli-completa-44-anos-e-misterio-sobre-a-morte-permanece-no-es.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
@@ -565,7 +565,7 @@ Writing message: santana diz que cancelou passagem para o brasil apos alerta de 
 Reaction chosen: haha
 requesting https://glo.bo/2qu6DiN
 http://g1.globo.com/agenda-do-dia/noticia/quinta-feira-18-de-maio.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: quinta feira 18 de maio bom dia ! aqui estao as principais noticias para voce comecar o dia bem informado.
+Writing message: quinta feira 18 de maio bom dia  aqui estao as principais noticias para voce comecar o dia bem informado.
 Reaction chosen: loves
 requesting https://glo.bo/2rfnerx
 http://g1.globo.com/ciencia-e-saude/noticia/os-4-irmaos-centenarios-que-podem-ajudar-a-desvendar-o-segredo-genetico-da-longevidade.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
@@ -589,7 +589,7 @@ Writing message: bebado que tentou entrar em apartamento errado deixa cervejas d
 Reaction chosen: haha
 requesting https://glo.bo/2pX7MM1
 http://g1.globo.com/planeta-bizarro/noticia/americano-processa-mulher-que-ficou-ao-celular-durante-encontro-no-cinema.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: americano processa mulher que ficou ao celular durante encontro no cinema ele quer que ela devolva o equivalente a r 50 apos encontro romantico que terminou mal ela se nega a devolver.
+Writing message: americano processa mulher que ficou ao celular durante encontro no cinema ele quer que ela devolva o equivalente a50 apos encontro romantico que terminou mal ela se nega a devolver.
 Reaction chosen: haha
 requesting https://glo.bo/2rqKU8X
 http://g1.globo.com/musica/noticia/miley-cyrus-diz-se-arrepender-de-wrecking-ball-sempre-serei-a-menina-nua-na-bola.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
@@ -606,7 +606,7 @@ Reaction chosen: haha
 requesting https://www.facebook.com/g1/videos/1633557143363031/
 requesting http://g1.globo.com/pr/parana/noticia/pm-diz-que-gastou-r-110-mil-no-esquema-de-seguranca-para-o-interrogatorio-de-lula-em-curitiba.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
 http://g1.globo.com/pr/parana/noticia/pm-diz-que-gastou-r-110-mil-no-esquema-de-seguranca-para-o-interrogatorio-de-lula-em-curitiba.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: pm diz que gastou r 110 mil no esquema de seguranca para o interrogatorio de lula em curitiba apos pedido de deputado estadual secretaria de seguranca repassou dados sobre os gastos 1700 policiais foram deslocados para a operacao.
+Writing message: pm diz que gastou110 mil no esquema de seguranca para o interrogatorio de lula em curitiba apos pedido de deputado estadual secretaria de seguranca repassou dados sobre os gastos 1700 policiais foram deslocados para a operacao.
 Reaction chosen: angry
 requesting http://g1.globo.com/tecnologia/noticia/google-lens-e-inteligencia-artificial-que-permite-a-camera-ler-e-interpretar-o-que-estiver-vendo.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
 http://g1.globo.com/tecnologia/noticia/google-lens-e-inteligencia-artificial-que-permite-a-camera-ler-e-interpretar-o-que-estiver-vendo.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
@@ -622,7 +622,7 @@ Writing message: temer nao cogita renunciar o presidente michel temer nao cogita
 Reaction chosen: angry
 requesting https://glo.bo/2rsNxXQ
 http://g1.globo.com/resumo-do-dia/noticia/quarta-feira-17-de-maio-de-2017.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: quarta feira 17 de maio de 2017 boa noite ! aqui estao as principais noticias para voce terminar o dia bem informado.
+Writing message: quarta feira 17 de maio de 2017 boa noite  aqui estao as principais noticias para voce terminar o dia bem informado.
 Reaction chosen: haha
 requesting https://glo.bo/2pYailp
 http://g1.globo.com/distrito-federal/noticia/grupo-faz-ato-em-frente-ao-planalto-apos-revelacao-de-denuncias-contra-temer.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
@@ -638,7 +638,7 @@ Writing message: temer se fecha com assessores no palacio do planalto apos revel
 Reaction chosen: haha
 requesting http://g1.globo.com/politica/noticia/dono-da-jbs-gravou-aecio-neves-pedindo-r-2-milhoes-diz-jornal.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
 http://g1.globo.com/politica/noticia/dono-da-jbs-gravou-aecio-neves-pedindo-r-2-milhoes-diz-jornal.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: dono da jbs gravou aecio neves pedindo r 2 milhoes diz jornal senador nega segundo o globo dinheiro foi entregue a primo do senador e presidente nacional do psdb aecio afirma estar tranquilo quanto a correcao de todos os seus atos.
+Writing message: dono da jbs gravou aecio neves pedindo2 milhoes diz jornal senador nega segundo o globo dinheiro foi entregue a primo do senador e presidente nacional do psdb aecio afirma estar tranquilo quanto a correcao de todos os seus atos.
 Reaction chosen: haha
 requesting https://glo.bo/2qTi7ha
 http://g1.globo.com/politica/noticia/maia-encerra-sessao-da-camara-minutos-apos-noticia-sobre-audio-de-temer.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
@@ -716,7 +716,7 @@ Writing message: nestle perde processo no reino unido pelo formato do kit kat o 
 Reaction chosen: haha
 requesting https://glo.bo/2pL4rVg
 http://g1.globo.com/carros/noticia/novo-fiat-argo-aparece-por-inteiro-em-primeira-imagem-oficial-veja.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=carros
-Writing message: novo fiat argo aparece por completo pela 1a vez veja e vote novo hatch compacto da fiat chega ainda neste semestre e vai aposentar de uma so vez o punto e versoes mais caras do palio gostou \? opine na enquete.
+Writing message: novo fiat argo aparece por completo pela 1a vez veja e vote novo hatch compacto da fiat chega ainda neste semestre e vai aposentar de uma so vez o punto e versoes mais caras do palio gostou  opine na enquete.
 Reaction chosen: wow
 requesting https://glo.bo/2rq7NcF
 http://g1.globo.com/mundo/noticia/putin-disposto-a-fornecer-gravacao-de-conversa-trump-lavrov.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
@@ -754,7 +754,7 @@ Writing message: aluna de escola publica inventa monitor cardiaco para sonambulo
 Reaction chosen: loves
 requesting https://glo.bo/2qPPSzU
 http://g1.globo.com/agenda-do-dia/noticia/quarta-feira-17-de-maio.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: quarta feira 17 de maio bom dia ! aqui estao as principais noticias para voce comecar o dia bem informado.
+Writing message: quarta feira 17 de maio bom dia  aqui estao as principais noticias para voce comecar o dia bem informado.
 Reaction chosen: haha
 requesting https://glo.bo/2pQPfSd
 http://g1.globo.com/sp/ribeirao-preto-franca/noticia/gravida-noiva-descobre-sexo-do-bebe-durante-casamento-apos-surpresa-do-marido-e-video-viraliza.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
@@ -797,7 +797,7 @@ requesting https://glo.bo/2qpLSEw
 http://g1.globo.com/politica/noticia/tribunal-derruba-decisao-que-suspendeu-atividades-do-instituto-lula.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
 requesting https://glo.bo/2rdCqW5
 http://g1.globo.com/resumo-do-dia/noticia/terca-feira-16-de-maio-de-2017.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: terca feira 16 de maio de 2017 boa noite ! aqui estao as principais noticias para voce terminar o dia bem informado.
+Writing message: terca feira 16 de maio de 2017 boa noite  aqui estao as principais noticias para voce terminar o dia bem informado.
 Reaction chosen: haha
 requesting http://gph.is/2pSO0Bq
 requesting https://glo.bo/2roig8m
@@ -847,7 +847,7 @@ Writing message: cunhado que estrangulou adolescente antes de se matar ajudou fa
 Reaction chosen: sad
 requesting https://glo.bo/2rnfp0n
 http://g1.globo.com/rio-de-janeiro/noticia/eike-tem-r-900-milhoes-bloqueados-e-nao-ha-como-pagar-fianca-diz-advogado.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: eike tem r 900 milhoes bloqueados e nao ha como pagar fianca diz advogado empresario que esta em prisao domiciliar teria ate quarta feira para pagar r 52 milhoes hoje segunda ele nao tem como fazer esse pagamento diz defesa.
+Writing message: eike tem900 milhoes bloqueados e nao ha como pagar fianca diz advogado empresario que esta em prisao domiciliar teria ate quarta feira para pagar52 milhoes hoje segunda ele nao tem como fazer esse pagamento diz defesa.
 Reaction chosen: haha
 requesting https://glo.bo/2qoBkpS
 http://g1.globo.com/educacao/noticia/fuvest-2018-tera-prova-da-1-fase-em-novembro-veja-calendario.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
@@ -867,7 +867,7 @@ Writing message: deputada denuncia secretario de mt a policia por divulgar foto 
 Reaction chosen: haha
 requesting https://glo.bo/2qn9utu
 http://g1.globo.com/rio-de-janeiro/noticia/mpf-denuncia-cabral-e-mais-seis-por-corrupcao-na-saude.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: mpf denuncia ex governador sergio cabral e mais seis por corrupcao na saude do rj operacao fatura exposta identificou propinas de mais de r 16 milhoes entre 2007 e 2014.
+Writing message: mpf denuncia ex governador sergio cabral e mais seis por corrupcao na saude do rj operacao fatura exposta identificou propinas de mais de16 milhoes entre 2007 e 2014.
 Reaction chosen: angry
 requesting https://glo.bo/2rmh9XH
 http://g1.globo.com/mundo/noticia/trump-defende-compartilhamento-de-informacoes-com-os-russos.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
@@ -880,7 +880,7 @@ Writing message: gemeas completam 100 anos e fazem ensaio fotografico no es veja
 Reaction chosen: loves
 requesting https://glo.bo/2qN864L
 http://g1.globo.com/sao-paulo/noticia/prefeitura-de-sp-sanciona-lei-que-cria-multa-de-r-500-para-quem-fizer-xixi-na-rua.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: prefeitura de sp sanciona lei que cria multa de r 500 para quem fizer xixi na rua regulamentacao vai determinar como sera feita a fiscalizacao e deve ocorrer no prazo de 90 dias.
+Writing message: prefeitura de sp sanciona lei que cria multa de500 para quem fizer xixi na rua regulamentacao vai determinar como sera feita a fiscalizacao e deve ocorrer no prazo de 90 dias.
 Reaction chosen: loves
 requesting https://glo.bo/2pG7JsE
 http://g1.globo.com/carros/noticia/toyota-apoia-projeto-de-carro-voador-para-2020.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=carros
@@ -923,7 +923,7 @@ Writing message: familia bota bilhete para explicar habito de cachorro de ficar 
 Reaction chosen: haha
 requesting https://glo.bo/2rlb4up
 http://g1.globo.com/agenda-do-dia/noticia/terca-feira-16-de-maio.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: terca feira 16 de maio bom dia ! aqui estao as principais noticias para voce comecar o dia bem informado.
+Writing message: terca feira 16 de maio bom dia  aqui estao as principais noticias para voce comecar o dia bem informado.
 Reaction chosen: angry
 requesting https://glo.bo/2qno0zV
 http://g1.globo.com/bemestar/noticia/cientistas-criam-exoesqueleto-robotico-que-evita-quedas-de-idosos.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
@@ -939,7 +939,7 @@ Writing message: jovem morre eletrocutado por fio de aspirador de po ao lavar ca
 Reaction chosen: sad
 requesting https://glo.bo/2qk92gh
 http://g1.globo.com/to/tocantins/noticia/homem-e-multado-em-r-195-mil-por-capturar-39-tartarugas-ameacadas-de-extincao.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: homem e multado em r 195 mil por capturar 39 tartarugas ameacadas de extincao operacao cantao tambem apreendeu redes e armas usadas para pesca ilegal fiscalizacao foi realizada no parque estadual do cantao em caseara.
+Writing message: homem e multado em195 mil por capturar 39 tartarugas ameacadas de extincao operacao cantao tambem apreendeu redes e armas usadas para pesca ilegal fiscalizacao foi realizada no parque estadual do cantao em caseara.
 Reaction chosen: angry
 requesting https://glo.bo/2r8VV2i
 http://g1.globo.com/planeta-bizarro/noticia/homem-e-filmado-pousando-de-helicoptero-para-comprar-lanche-em-mcdonalds-na-australia.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
@@ -967,7 +967,7 @@ Writing message: nova versao de virus responsavel por ciberataques e encontrada 
 Reaction chosen: wow
 requesting http://g1.globo.com/tecnologia/noticia/morte-do-mp3-inventora-do-formato-de-musica-encerra-programa-de-licenciamento.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
 http://g1.globo.com/tecnologia/noticia/morte-do-mp3-inventora-do-formato-de-musica-encerra-programa-de-licenciamento.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: morte do mp3 \? inventora do formato de musica encerra programa de licenciamento arquivos existentes nao deixarao de funcionar mas acao de fundacao alema sinaliza que mp3 simplesmente nao e mais relevante.
+Writing message: morte do mp3  inventora do formato de musica encerra programa de licenciamento arquivos existentes nao deixarao de funcionar mas acao de fundacao alema sinaliza que mp3 simplesmente nao e mais relevante.
 Reaction chosen: sad
 requesting http://g1.globo.com/politica/noticia/37-dos-politicos-que-propoem-mudancas-na-mp-do-refis-podem-se-beneficiar.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
 http://g1.globo.com/politica/noticia/37-dos-politicos-que-propoem-mudancas-na-mp-do-refis-podem-se-beneficiar.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
@@ -989,7 +989,7 @@ Writing message: leo pinheiro entrega documentos que comprovariam obras em sitio
 Reaction chosen: haha
 requesting http://g1.globo.com/bahia/noticia/grupo-investigado-por-fraude-em-licitacoes-forneceu-carne-vencida-para-merenda-escolar-na-ba.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
 http://g1.globo.com/bahia/noticia/grupo-investigado-por-fraude-em-licitacoes-forneceu-carne-vencida-para-merenda-escolar-na-ba.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: grupo investigado por fraude em licitacoes forneceu carne vencida para merenda escolar na ba tres pessoas estao presas em ilheus cidade onde ocorreram as irregularidades fraudes envolveram contratos de r 25 milhoes.
+Writing message: grupo investigado por fraude em licitacoes forneceu carne vencida para merenda escolar na ba tres pessoas estao presas em ilheus cidade onde ocorreram as irregularidades fraudes envolveram contratos de25 milhoes.
 Reaction chosen: angry
 requesting https://glo.bo/2pOYWkj
 http://g1.globo.com/mundo/noticia/trump-revelou-informacoes-secretas-a-ministro-e-embaixador-da-russia-diz-jornal.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
@@ -1057,7 +1057,7 @@ Writing message: homem faz funcionarios refens em agencia dos correios por 4 hor
 Reaction chosen: sad
 requesting https://glo.bo/2rhN1M5
 http://g1.globo.com/pernambuco/blog/viver-noronha/post/foto-registra-voo-simultaneo-de-passaro-e-surfista-em-fernando-de-noronha.html?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: foto registra voo simultaneo de passaro e surfista em fernando de noronha e um passaro \? e um aviao \? sao dois passaros \? para quem olha rapidamente o registro do fotografico renato tinoco muitas perguntas podem vir a ca.
+Writing message: foto registra voo simultaneo de passaro e surfista em fernando de noronha e um passaro  e um aviao  sao dois passaros  para quem olha rapidamente o registro do fotografico renato tinoco muitas perguntas podem vir a ca.
 Reaction chosen: wow
 requesting https://glo.bo/2pOioNk
 http://g1.globo.com/rio-de-janeiro/noticia/neto-de-zagallo-segue-internado-em-observacao-apos-ser-baleado-no-rio.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
@@ -1089,7 +1089,7 @@ Writing message: no japao centenas de familias se reunem e vibram com bebes chor
 Reaction chosen: haha
 requesting https://glo.bo/2qmGVuR
 http://g1.globo.com/economia/concursos-e-emprego/noticia/mais-de-90-concursos-publicos-abertos-reunem-362-mil-vagas-no-pais.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: mais de 90 concursos publicos abertos reunem 362 mil vagas no pais cargos sao em todos os niveis de escolaridade salario chega a r 248 mil no tribunal de justica de sao paulo.
+Writing message: mais de 90 concursos publicos abertos reunem 362 mil vagas no pais cargos sao em todos os niveis de escolaridade salario chega a248 mil no tribunal de justica de sao paulo.
 Reaction chosen: loves
 requesting https://www.facebook.com/g1/photos/a.286506901401402.89243.180562885329138/1630041707047908/?type=3
 requesting https://glo.bo/2pyYQBk
@@ -1098,7 +1098,7 @@ Writing message: idosa de 81 anos realiza sonho radical e salta de paraquedas as
 Reaction chosen: wow
 requesting https://glo.bo/2rgB2i6
 http://g1.globo.com/agenda-do-dia/noticia/segunda-feira-15-de-maio.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1
-Writing message: segunda feira 15 de maio bom dia ! aqui estao as principais noticias para voce comecar o dia bem informado.
+Writing message: segunda feira 15 de maio bom dia  aqui estao as principais noticias para voce comecar o dia bem informado.
 Reaction chosen: wow
 requesting https://glo.bo/2pytQRP
 http://g1.globo.com/tecnologia/hackathon/2017/noticia/video-programadores-da-hackathon-globo-contam-no-confessionario-do-bbb-seus-pecados-nerd.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1

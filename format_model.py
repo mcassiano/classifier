@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import json
 import re
+from string import punctuation
 from time import sleep
 
 import requests
@@ -8,51 +9,32 @@ from bs4 import BeautifulSoup
 import unicodedata
 
 
-def clean_str(message2):
-    message1 = unicodedata.normalize('NFKD', message2).encode('ASCII', 'ignore').decode('ASCII')
-    message1 = re.sub(r"\(.*\)", "", message1)
-    message1 = re.sub("#\S+", "", message1)
-    message1 = re.sub(
-        r'(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:\'".,<>?«»“”‘’]))',
-        '', message1)
-    message1 = message1.replace("\n", "")
-    message1 = message1.replace("'", "")
-    message1 = message1.replace("\"", "")
-    message1 = message1.replace(",", "")
-    message1 = message1.replace(";", "")
-    message1 = message1.replace(".", "")
-    message1 = message1.replace(":", "")
-    message1 = message1.replace("-", " ")
-    string = re.sub(r"[^A-Za-z0-9(),!?\'\`]", " ", message1)
-    string = re.sub(r"\'s", " \'s", string)
-    string = re.sub(r"\'ve", " \'ve", string)
-    string = re.sub(r"n\'t", " n\'t", string)
-    string = re.sub(r"\'re", " \'re", string)
-    string = re.sub(r"\'d", " \'d", string)
-    string = re.sub(r"\'ll", " \'ll", string)
-    string = re.sub(r",", " , ", string)
-    string = re.sub(r"!", " ! ", string)
-    string = re.sub(r"\(", " \( ", string)
-    string = re.sub(r"\)", " \) ", string)
-    string = re.sub(r"\?", " \? ", string)
-    string = re.sub(r"\s{2,}", " ", string)
-    return string.strip().lower()
+def clean_str(dirtyText):
+    matcher = re.compile(r'<http.+?>', re.DOTALL)
+    strippedUrls = re.sub(matcher, '', dirtyText)
+    normalizedData = unicodedata.normalize('NFKD', strippedUrls)
+    asciiDecoded = normalizedData.encode('ASCII', 'ignore').decode('ASCII')
+    strippedHashtags = re.sub("#\S+", "", asciiDecoded)
+    strippedParenthesis = re.sub(r"\(.*\)", "", strippedHashtags)
+    strippedNewLines = strippedParenthesis.replace("\n", " ")
+    onlyAlpha = re.sub('[^a-z A-Z]+', '', strippedNewLines)
+    return onlyAlpha.strip().lower()
 
 
-loves = open('loves.csv', 'w')
-loves.write('value\n')
+loves = open('data/loves.csv', 'w')
+loves.write('id,count,value\n')
 
-wows = open('wows.csv', 'w')
-wows.write('value\n')
+wows = open('data/wows.csv', 'w')
+wows.write('id,count,value\n')
 
-hahas = open('hahas.csv', 'w')
-hahas.write('value\n')
+hahas = open('data/hahas.csv', 'w')
+hahas.write('id,count,value\n')
 
-sads = open('sads.csv', 'w')
-sads.write('value\n')
+sads = open('data/sads.csv', 'w')
+sads.write('id,count,value\n')
 
-angries = open('angries.csv', 'w')
-angries.write('value\n')
+angries = open('data/angries.csv', 'w')
+angries.write('id,count,value\n')
 
 fileDescriptor = open('posts.json', 'r')
 posts = json.load(fileDescriptor)
@@ -61,6 +43,15 @@ count = 0
 descriptors = {"wow": wows, "haha": hahas,
                "angry": angries, "loves": loves,
                "sad": sads}
+
+
+def closeFiles():
+    loves.close()
+    wows.close()
+    hahas.close()
+    sads.close()
+    angries.close()
+
 
 for post in posts:
     link = post['link']
@@ -76,6 +67,8 @@ for post in posts:
                 break
             retries += 1
             response = requests.get(link)
+        except KeyboardInterrupt:
+            closeFiles()
         except:
             print('retrying request...')
             response = None
@@ -92,6 +85,9 @@ for post in posts:
         continue
     if '/ao-vivo/' in response.url:
         continue
+    if '/agenda/' in response.url:
+        continue
+
     print(response.url)
     soup = BeautifulSoup(response.text, "lxml")
 
@@ -122,19 +118,15 @@ for post in posts:
         if len(message) < 70:
             continue
 
-        print("Writing message: %s." % message)
+        print("Writing message: %s" % message)
         reactions = post['reactions']
         sortedKeys = sorted(reactions, key=reactions.get, reverse=True)
         predominantReaction = sortedKeys[0]
         if reactions[predominantReaction] > 0:
             print("Reaction chosen: %s" % predominantReaction)
-            descriptors[predominantReaction].write(message + "\n")
+            descriptors[predominantReaction].write(
+                post['id'] + ',' + str(reactions[predominantReaction]) + ',' + message + "\n")
             count += 1
 
 print('%d items processed' % count)
-
-loves.close()
-wows.close()
-hahas.close()
-sads.close()
-angries.close()
+closeFiles()
