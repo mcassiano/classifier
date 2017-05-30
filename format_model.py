@@ -79,6 +79,8 @@ for post in posts:
 
     if 'g1.globo.com' not in response.url:
         continue
+    if '/politica/' in response.url:
+        continue
     if 'globoesporte' in response.url:
         continue
     if 'autoesporte' in response.url:
