@@ -36,7 +36,10 @@ for i in range(0, len(descriptors)):
         sortedReactions = sorted(reactions, key=reactions.get, reverse=True)
         threshold = 0.7
 
-        # if descriptor == angries or descriptor == angries or descriptor == wows:
+        if descriptor == angries or descriptor == hahas:
+            if 'senad' in line or 'deputad' in line or 'camara' in line:
+                continue
+
         if reactions[sortedReactions[1]] / reactions[sortedReactions[0]] < threshold:
             newDescriptors[i].write(splittedLine[0] + ',' + splittedLine[1] + ',' + splittedLine[2])
             # else:
