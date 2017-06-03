@@ -11,11 +11,11 @@ import unicodedata
 
 def clean_str(dirtyText):
     matcher = re.compile(r'<http.+?>', re.DOTALL)
-    strippedUrls = re.sub(matcher, '', dirtyText)
+    strippedUrls = re.sub(matcher, ' ', dirtyText)
     normalizedData = unicodedata.normalize('NFKD', strippedUrls)
     asciiDecoded = normalizedData.encode('ASCII', 'ignore').decode('ASCII')
-    strippedHashtags = re.sub("#\S+", "", asciiDecoded)
-    strippedParenthesis = re.sub(r"\(.*\)", "", strippedHashtags)
+    strippedHashtags = re.sub("#\S+", " ", asciiDecoded)
+    strippedParenthesis = re.sub(r"\(.*\)", " ", strippedHashtags)
     strippedNewLines = strippedParenthesis.replace("\n", " ")
     onlyAlpha = re.sub('[^a-z A-Z]+', '', strippedNewLines)
     return onlyAlpha.strip().lower()

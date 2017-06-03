@@ -1,4 +1,10 @@
 import json
+from random import random
+
+import itertools
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib import cm
 
 fileDescriptor = open('posts.json', 'r')
 posts = json.load(fileDescriptor)
@@ -13,14 +19,30 @@ hahas = open('data/hahas.csv', 'r')
 sads = open('data/sads.csv', 'r')
 angries = open('data/angries.csv', 'r')
 
-newLoves = open('newSet/loves.csv', 'w')
-newWows = open('newSet/wows.csv', 'w')
-newHahas = open('newSet/hahas.csv', 'w')
-newSads = open('newSet/sads.csv', 'w')
-newAngries = open('newSet/angries.csv', 'w')
-
 descriptors = [loves, wows, hahas, sads, angries]
-newDescriptors = [newLoves, newWows, newHahas, newSads, newAngries]
+samples = {}
+
+
+def random_jitter(y):
+    return y + random() * 0.4
+
+
+def plot(xs, ys, labels):
+    colors = cm.rainbow(np.linspace(0, 1, len(ys)))
+    area = np.pi * 20
+    fig, ax = plt.subplots()
+    markers = itertools.cycle(('D', ',', 'v', 'o', 'p'))
+
+    for x, y, c, label, marker in zip(xs, ys, colors, labels, markers):
+        x = list(map(random_jitter, x))
+        y = list(map(random_jitter, y))
+        ax.scatter(x, y, edgecolors=c, marker=marker,
+                   facecolors='none', linewidth='2', s=area, alpha=0.5, label=label)
+
+    ax.legend()
+    ax.grid(True)
+    plt.show()
+
 
 for i in range(0, len(descriptors)):
     descriptor = descriptors[i]
@@ -28,21 +50,46 @@ for i in range(0, len(descriptors)):
         splittedLine = line.split(',')
         facebookId = str(splittedLine[0])
         if 'id' in facebookId:
-            newDescriptors[i].write(line)
             continue
 
         post = newPosts[facebookId]
         reactions = post['reactions']
         sortedReactions = sorted(reactions, key=reactions.get, reverse=True)
-        threshold = 0.7
+        reactionsCount = sum(reactions.values())
+        threshold = 0.75
 
-        if reactions[sortedReactions[0]] < 700:
+        if reactionsCount < 10:
             continue
 
-        if reactions[sortedReactions[1]] / reactions[sortedReactions[0]] < threshold:
-            newDescriptors[i].write(splittedLine[0] + ',' + splittedLine[1] + ',' + splittedLine[2])
-            # else:
-            #     newDescriptors[i].write(splittedLine[0] + ',' + splittedLine[1] + ',' + splittedLine[2])
+        if reactions[sortedReactions[0]] / reactionsCount < threshold:
+            continue
 
-for newDescriptor in newDescriptors:
-    newDescriptor.close()
+        percentage = reactions[sortedReactions[0]] / reactionsCount
+
+        if samples.get(sortedReactions[0]):
+            if len(samples[sortedReactions[0]]) < 200:
+                samples[sortedReactions[0]].append(percentage)
+        else:
+            samples[sortedReactions[0]] = [percentage]
+
+xs = []
+ys = []
+labels = []
+i = 0
+for key, reactionSamples in samples.items():
+    x = []
+    y = []
+    for j in range(0, len(reactionSamples)):
+        xNoise = random() * 0.1 + reactionSamples[j]
+        yNoise = i + 2
+
+        x.append(xNoise)
+        y.append(yNoise)
+
+    xs.append(x)
+    ys.append(y)
+    labels.append(key)
+
+    i += 1
+
+plot(xs, ys, labels)
