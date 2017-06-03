@@ -34,16 +34,15 @@ for i in range(0, len(descriptors)):
         post = newPosts[facebookId]
         reactions = post['reactions']
         sortedReactions = sorted(reactions, key=reactions.get, reverse=True)
-        reactionsCount = sum(reactions.values())
-        threshold = 0.75
+        threshold = 0.7
 
-        if reactionsCount < 10:
+        if reactions[sortedReactions[0]] < 700:
             continue
 
-        if reactions[sortedReactions[0]] / reactionsCount < threshold:
-            continue
-
-        newDescriptors[i].write(splittedLine[0] + ',' + splittedLine[1] + ',' + splittedLine[2])
+        if reactions[sortedReactions[1]] / reactions[sortedReactions[0]] < threshold:
+            newDescriptors[i].write(splittedLine[0] + ',' + splittedLine[1] + ',' + splittedLine[2])
+            # else:
+            #     newDescriptors[i].write(splittedLine[0] + ',' + splittedLine[1] + ',' + splittedLine[2])
 
 for newDescriptor in newDescriptors:
     newDescriptor.close()

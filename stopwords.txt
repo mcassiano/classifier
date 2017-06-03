@@ -301,3 +301,5 @@ zona
 r
 h
 veja
+kg
+t
