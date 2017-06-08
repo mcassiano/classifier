@@ -126,6 +126,7 @@ class PageScraper:
 
         fileDescriptor = open('%s.json' % self.filename, 'r')
         posts = json.load(fileDescriptor)
+        newPosts = []
         print("scraping %d posts" % len(posts))
 
         for post in posts:
@@ -137,9 +138,10 @@ class PageScraper:
 
             if message is not None:
                 post['message'] = message
+                newPosts.append(post)
 
         outFile = open(self.filename + '-scraped.json', 'w')
-        outFile.write(json.dumps(posts))
+        outFile.write(json.dumps(newPosts))
         outFile.close()
         return posts
 
@@ -226,8 +228,11 @@ if __name__ == '__main__':
             'D69QO5uyg7xVCiMpMtGvUk5m8TRJZA1GCM7Sbyf4ZAUQVCZB' \
             'NE5i95a8sEQVwDnuvCNxRBdZA2uIe9sZAza0MZD'
 
-    # retriever = FacebookPostsRetriever(token, 'g1')
-    # retriever.start(200)
-    # sleep(10)
-    scraper = DatasetBuilder('posts-g1-scraped')
-    scraper.build()
+    retriever = FacebookPostsRetriever(token, 'g1')
+    retriever.start(1)
+    sleep(10)
+    scraper = PageScraper('posts-g1', g1filter)
+    scraper.start()
+    sleep(10)
+    datasetBuilder = DatasetBuilder('posts-g1-scraped')
+    datasetBuilder.build()
