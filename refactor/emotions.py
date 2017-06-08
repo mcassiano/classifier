@@ -228,11 +228,11 @@ if __name__ == '__main__':
             'D69QO5uyg7xVCiMpMtGvUk5m8TRJZA1GCM7Sbyf4ZAUQVCZB' \
             'NE5i95a8sEQVwDnuvCNxRBdZA2uIe9sZAza0MZD'
 
-    retriever = FacebookPostsRetriever(token, 'g1')
-    retriever.start(1)
-    sleep(10)
-    scraper = PageScraper('posts-g1', g1filter)
-    scraper.start()
-    sleep(10)
+    #retriever = FacebookPostsRetriever(token, 'g1')
+    #retriever.start(200)
+    #sleep(10)
+    #scraper = PageScraper('posts-g1', g1filter)
+    #scraper.start()
+    #sleep(10)
     datasetBuilder = DatasetBuilder('posts-g1-scraped')
     datasetBuilder.build()
