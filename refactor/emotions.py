@@ -35,6 +35,27 @@ def clean_str(dirtyText):
     return onlyAlpha.strip().lower()
 
 
+class DatasetBuilder:
+    def __init__(self, filename):
+        readDescriptor = open('%s.json' % filename, 'r')
+        self.posts = json.load(readDescriptor)
+
+    def build(self):
+        descriptors = {}
+
+        for post in self.posts:
+            reactions = post['reactions']
+            sortedReactions = sorted(reactions, key=reactions.get, reverse=True)
+            predominant = sortedReactions[0]
+
+            if predominant not in descriptors:
+                descriptors[predominant] = open('data/%s.csv' % predominant, 'w')
+
+            if post['message'] is not None and not any(c.isupper() for c in post['message']):
+                descriptors[predominant].write(
+                    post['id'] + ',' + str(reactions[predominant]) + ',' + post['message'] + '\n')
+
+
 class FacebookPostsRetriever:
     fields = 'id,message,link,created_time,reactions.type(LIKE).summary(total_count).limit(0).as(like),' \
              'reactions.type(LOVE).summary(total_count).limit(0).as(love),' \
@@ -89,10 +110,10 @@ class FacebookPostsRetriever:
         sortedReactions = sorted(reactions, key=reactions.get, reverse=True)
         reactionsCount = sum(reactions.values())
 
-        if reactionsCount <= 0:
+        if reactionsCount <= 10:
             return False
 
-        return reactions[sortedReactions[0]] / reactionsCount < self.threshold
+        return reactions[sortedReactions[0]] / reactionsCount > self.threshold
 
 
 # noinspection PyBroadException
@@ -208,5 +229,5 @@ if __name__ == '__main__':
     # retriever = FacebookPostsRetriever(token, 'g1')
     # retriever.start(200)
     # sleep(10)
-    scraper = PageScraper('posts-g1', g1filter)
-    scraper.start()
+    scraper = DatasetBuilder('posts-g1-scraped')
+    scraper.build()
