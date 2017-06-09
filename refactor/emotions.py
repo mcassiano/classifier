@@ -39,6 +39,7 @@ class DatasetBuilder:
     def __init__(self, filename):
         readDescriptor = open('%s.json' % filename, 'r')
         self.posts = json.load(readDescriptor)
+        self.directory = filename.split('-')[1]
 
     def build(self):
         descriptors = {}
@@ -49,7 +50,7 @@ class DatasetBuilder:
             predominant = sortedReactions[0]
 
             if predominant not in descriptors:
-                descriptors[predominant] = open('data/%s.csv' % predominant, 'w')
+                descriptors[predominant] = open('%s/%s.csv' % (self.directory, predominant), 'w')
 
             if post['message'] is not None and not any(c.isupper() for c in post['message']):
                 descriptors[predominant].write(
@@ -198,6 +199,12 @@ class PageScraper:
             return None
 
 
+def uolFilter(response):
+    if 'noticias.uol.com.br' not in response.url:
+        return False
+    return True
+
+
 def g1filter(response):
     if 'g1.globo.com' not in response.url:
         return False
@@ -228,11 +235,11 @@ if __name__ == '__main__':
             'D69QO5uyg7xVCiMpMtGvUk5m8TRJZA1GCM7Sbyf4ZAUQVCZB' \
             'NE5i95a8sEQVwDnuvCNxRBdZA2uIe9sZAza0MZD'
 
-    #retriever = FacebookPostsRetriever(token, 'g1')
+    #retriever = FacebookPostsRetriever(token, 'UOLNoticias')
     #retriever.start(200)
     #sleep(10)
-    #scraper = PageScraper('posts-g1', g1filter)
+    #scraper = PageScraper('posts-UOLNoticias', uolFilter)
     #scraper.start()
     #sleep(10)
-    datasetBuilder = DatasetBuilder('posts-g1-scraped')
+    datasetBuilder = DatasetBuilder('posts-UOLNoticias-scraped')
     datasetBuilder.build()
